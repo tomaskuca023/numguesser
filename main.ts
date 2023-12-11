@@ -92,13 +92,11 @@ basic.forever(function() {
 
     if (selection) {
         whaleysans.showNumber(maxSelectValue)
-        led.toggle(2, 1)
     }
 
 
     if (!selection) {
         whaleysans.showNumber(value)
-        led.toggle(2, 3)
     }
 
     basic.pause(20)
